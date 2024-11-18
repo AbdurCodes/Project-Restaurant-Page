@@ -1,6 +1,5 @@
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
-const { watchFile } = require('fs');
 
 module.exports = {
     mode: 'development',
@@ -27,5 +26,14 @@ module.exports = {
         port: 8080,
         open: true,
     },
+
+    module: {
+        rules: [
+            {
+                test: /\.html$/i,
+                use: 'html-loader',
+            },
+        ]
+    }
     
 }
