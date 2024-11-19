@@ -11,6 +11,9 @@ export function loadContactPage() {
     const phoneManager = document.createElement('p');
     phoneManager.textContent = '555-555-5554';
     divManager.appendChild(phoneManager);
+    const emailManager = document.createElement('p');
+    emailManager.textContent = 'contactManager@tastee.com'; 
+    divManager.appendChild(emailManager);
     content.appendChild(divManager);
     
     const divDeliveryBoy = document.createElement('div');
@@ -20,5 +23,8 @@ export function loadContactPage() {
     const phoneDeliveryBoy = document.createElement('p');
     phoneDeliveryBoy.textContent = '555-555-5555';
     divDeliveryBoy.appendChild(phoneDeliveryBoy);
+    const emailDeliveryBoy = document.createElement('p');
+    emailDeliveryBoy.textContent = 'contactDeliveryBoy@tastee.com'; 
+    divDeliveryBoy.appendChild(emailDeliveryBoy);
     content.appendChild(divDeliveryBoy);
 }

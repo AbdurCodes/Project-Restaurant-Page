@@ -25,6 +25,9 @@ module.exports = {
         static: './dist',
         port: 8080,
         open: true,
+        // devMiddleware: {
+        //     writeToDisk: true, // Enable writing to the disk during `serve`
+        // },
     },
 
     module: {

@@ -7,7 +7,7 @@ body {
 
 h1{
     border: 23px solid yellow;
-    border-radius: 22px;
+    border-radius: 122px;
     padding: 22px;
     text-align: center;
     background-color: rgb(123, 182, 5);
@@ -25,6 +25,7 @@ h2{
 
 nav, #content{
     text-align: center;
+    margin-top: 7px;
 }
 
 button{
@@ -32,6 +33,7 @@ button{
     height: 50px;
     border-radius: 22px;
     font-size: inherit;
+    cursor: pointer;
 }
 
 #content div p, li{
