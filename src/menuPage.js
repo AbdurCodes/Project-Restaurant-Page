@@ -20,7 +20,7 @@ export function loadMenuPage() {
     }
 }
 
-
+// content.style.textAlign = 'left';
 
 let menuItems = {
     Appetizers: [

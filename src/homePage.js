@@ -1,5 +1,7 @@
 import homeImage from './restaurant.jpg';
 
+
+
 export function loadHomePage() {
 
     const welcome = document.createElement('h1');
@@ -18,3 +20,5 @@ export function loadHomePage() {
     content.appendChild(restaurantPhoto);
     content.appendChild(restaurantDesc);
 }
+
+// content.style.textAlign = 'center';

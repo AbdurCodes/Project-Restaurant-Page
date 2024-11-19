@@ -1,6 +1,7 @@
 import {loadHomePage} from './homePage.js';
 import {loadMenuPage} from './menuPage.js';
 import {loadContactPage} from './contactPage.js';
+import './style.css';
 
 const btns = document.getElementsByTagName('button');
 

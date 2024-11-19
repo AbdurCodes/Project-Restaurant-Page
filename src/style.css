@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(191, 151, 231);
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    border: 23px solid yellow;
+    border-radius: 22px;
+    padding: 22px;
+    text-align: center;
+    background-color: rgb(123, 182, 5);
+}
+
+h2{
+    border: 13px solid yellow;
+    border-radius: 22px;
+    padding: 22px;
+    text-align: center;
+    background-color: yellowgreen;
+    text-align: left;
+    width: fit-content;
+}
+
+nav, #content{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 22px;
+    font-size: inherit;
+}
+
+#content div p, li{
+    text-align: left;
+    border: 6px solid rgb(0, 255, 234);
+    border-radius: 18px;
+    padding: 10px 32px;
+    background-color: rgb(156, 100, 201);
+    width: fit-content;
+    margin: 3px 0px;
+    color: bisque;
+}
+
+#content img {
+    width: 80vw;
+}
+
