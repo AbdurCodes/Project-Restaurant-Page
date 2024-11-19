@@ -21,5 +21,4 @@ export function loadContactPage() {
     phoneDeliveryBoy.textContent = '555-555-5555';
     divDeliveryBoy.appendChild(phoneDeliveryBoy);
     content.appendChild(divDeliveryBoy);
-
 }

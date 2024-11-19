@@ -1,9 +1,7 @@
 import homeImage from './restaurant.jpg';
 
-
 export function loadHomePage() {
 
-    
     const welcome = document.createElement('h1');
     const restaurantPhoto = document.createElement('img');
     const restaurantDesc = document.createElement('p');

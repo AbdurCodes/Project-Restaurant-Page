@@ -1,5 +1,3 @@
-
-
 export function loadMenuPage() {
 
     const restaurantMenu = document.createElement('h1');
@@ -13,8 +11,8 @@ export function loadMenuPage() {
         content.appendChild(h2);
 
         const ol = document.createElement('ol');
-        const li = document.createElement('li');
         for (let i=0; i<menuItems[key].length; i++) {
+            const li = document.createElement('li');
             li.textContent = menuItems[key][i];
             ol.appendChild(li);
         }
@@ -31,6 +29,7 @@ let menuItems = {
         'Spicy Chicken Wings',
         'Mozzarella Sticks with Marinara',
         'Veggie Spring Rolls',
+        'Omlete',
     ],
     'Soups & Salads': [
         'Creamy Tomato Soup',
