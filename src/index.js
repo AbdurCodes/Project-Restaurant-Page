@@ -21,8 +21,5 @@ btns[2].addEventListener('click', ()=>{
 loadHomePage();
 
 
-
-
-
-
-
+// Deploying with Subtree
+// git subtree push --prefix dist origin gh-pages
