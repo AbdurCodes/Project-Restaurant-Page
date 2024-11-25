@@ -3,6 +3,13 @@ import {loadMenuPage} from './menuPage.js';
 import {loadContactPage} from './contactPage.js';
 import './style.css';
 
+if (process.env.NODE_ENV !== 'production') {
+    console.log('Looks like we are in development mode!');
+  }
+else {
+    console.log('Now we are in production mode.');
+}
+
 const btns = document.getElementsByTagName('button');
 
 btns[0].addEventListener('click', ()=>{

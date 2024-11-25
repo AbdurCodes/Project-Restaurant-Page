@@ -1,8 +1,10 @@
+// this file came from webpack.config.js
+// this file contains common code of dev and prod webpack config file
+
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
 
     entry: './src/index.js',
 
@@ -17,18 +19,6 @@ module.exports = {
             template: './src/template.html',
         }),
     ],
-
-    devtool: 'eval-source-map',
-
-    devServer: {
-        watchFiles: ['./src/template.html'],
-        static: './dist',
-        port: 8080,
-        open: true,
-        // devMiddleware: {
-        //     writeToDisk: true, // Enable writing to the disk during `serve`
-        // },
-    },
 
     module: {
         rules: [
@@ -45,6 +35,6 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
         ]
-    }
+    },
 
 }
